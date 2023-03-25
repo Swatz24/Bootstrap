@@ -3,7 +3,7 @@
   z-index: 1;
 }
 .header{
-  font-size: 35px;
+  font-size: 2em;
   font-family:cursive, 'Arial Narrow', Arial, sans-serif;
   color: rgb(201, 47, 47);
   font-style: italic;
@@ -16,5 +16,5 @@
   background-color: rgb(32, 85, 32);
   color: white;
   text-align: center;
-  font-size: 15px;
+  font-size: 0.5em;
 }
