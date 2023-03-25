@@ -1,0 +1,20 @@
+.second-nav{
+  margin-top:56px;
+  z-index: 1;
+}
+.header{
+  font-size: 35px;
+  font-family:cursive, 'Arial Narrow', Arial, sans-serif;
+  color: rgb(201, 47, 47);
+  font-style: italic;
+  text-decoration: underline ;
+
+
+}
+
+.header2{
+  background-color: rgb(32, 85, 32);
+  color: white;
+  text-align: center;
+  font-size: 15px;
+}

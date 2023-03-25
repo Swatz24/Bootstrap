@@ -9,7 +9,8 @@
       name="viewport"
       content="width=device-width, initial-scale=1, shrink-to-fit=no"
     />
-    <title>BootStrap</title>
+    <title>Krispy Kreme</title>
+    <link rel="stylesheet" href="styles.css">
     <!-- Bootstrap CSS -->
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
@@ -18,75 +19,70 @@
       crossorigin="anonymous"
     />
   </head>
-  <body>
-    <div class="container container-fluid" >
-      <nav
-        class="navbar navbar-expand-lg navbar-light bg-light flex-column fixed-top"
+  <body><nav class="navbar sticky-top navbar-expand-md navbar-light bg-light justify-content-end first-nav ">
+    <ul class="nav">
+      <li class="nav-item">
+        <a class="nav-link" href="#">Shops</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">JOIN REWARDS</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">SIGN IN</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Search</a>
+      </li>
+    </ul>
+    </nav>
+
+    <nav class="navbar navbar-expand-md navbar-light bg-light sticky-top second-nav" >
+      <a href="" class="navbar-brand"><img src="logo.png" /></a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navmenu"
       >
-        <nav
-          class="navbar navbar-expand-md navbar-light bg-light justify-content-end"
-        >
-          <ul class="nav nav justify-content-end">
-            <li class="nav-item">
-              <a class="nav-link" href="#">Shops</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">JOIN REWARDS</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">SIGN IN</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Search</a>
-            </li>
-          </ul>
-        </nav>
-        <hr>
-        <nav class="navbar navbar-expand-md navbar-light bg-light">
-          <a href="" class="navbar-brand"><img src="logo.png" /></a>
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navmenu"
-          >
-            <span class="navbar-toggle-icon">
-              <img src="hamburger-icon.svg" />
-            </span>
-          </button>
+        <span class="navbar-toggle-icon">
+          <img src="hamburger-icon.svg" />
+        </span>
+      </button>
 
-          <div class="collapse navbar-collapse" id="navmenu">
-            <ul class="navbar-nav ms-auto">
-              <li class="nav-item"><a href="" class="nav-link">Menu</a></li>
-              <li class="nav-item">
-                <a href="" class="nav-link">Catering</a>
-              </li>
-              <li class="nav-item">
-                <a href="" class="nav-link">Rewards</a>
-              </li>
-              <li class="nav-item">
-                <a href="" class="nav-link">Gift Cards</a>
-              </li>
-              <li class="nav-item">
-                <a href="" class="nav-link">Fundraising</a>
-              </li>
-              <li class="nav-item">
-                <a href="" class="nav-link">Retail</a>
-              </li>
-            </ul>
-          </div>
+      <div class="collapse navbar-collapse" id="navmenu">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a href="" class="nav-link">Menu</a></li>
+          <li class="nav-item">
+            <a href="" class="nav-link">Catering</a>
+          </li>
+          <li class="nav-item">
+            <a href="" class="nav-link">Rewards</a>
+          </li>
+          <li class="nav-item">
+            <a href="" class="nav-link">Gift Cards</a>
+          </li>
+          <li class="nav-item">
+            <a href="" class="nav-link">Fundraising</a>
+          </li>
+          <li class="nav-item">
+            <a href="" class="nav-link">Retail</a>
+          </li>
+        </ul>
+      </div>
 
-          <button class="btn btn-lg btn-danger me-2" type="button">
-            <img src="delivery.png" />Order <br />
-            Delivery
-          </button>
-          <button class="btn btn-lg btn-danger me-2" type="button">
-            <img src="pickup-icon.png" />Order <br />
-            Pickup
-          </button>
-        </nav>
-      </nav>
-    </div>
+      <button class="btn btn-lg btn-danger me-2" type="button">
+        <img src="delivery.png" />Order <br />
+        Delivery
+      </button>
+      <button class="btn btn-lg btn-danger me-2" type="button">
+        <img src="pickup-icon.png" />Order <br />
+        Pickup
+      </button>
+    </nav>
+ 
+  <hr>
+
+</nav>
     <hr>
 
     <section>
@@ -97,6 +93,11 @@
           src="mainimg.jpg"
           alt="3 donuts"
         />
+        <div class="position-absolute top-0 start-50 translate-middle-x ">
+          <header><h1 class="header">Krispy Kreme</h1>
+                  <h2 class="header2">DOUGHNUTS</h2>
+         </header> 
+         </div>
         <div
           id="btn"
           class="position-absolute top-50 start-50 d-flex align-items-center justify-content-center"
